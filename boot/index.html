@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/icono.png" alt="Logo" width="30" height="30"> BattleGear Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caracteristicas">Armaduras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="container-fluid">
+        <div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/1.jpg" class="d-block w-100 img-fluid carousel-img" alt="Imagen 0">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/2.jpg" class="d-block w-100 img-fluid carousel-img" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/3.jpg" class="d-block w-100 img-fluid carousel-img" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/4.jpg" class="d-block w-100 img-fluid carousel-img" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+
+<!-- Características -->
+<section id="caracteristicas" class="container my-5">
+    <h2 class="text-center mb-4">Armaduras</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto1.html">
+                    <img src="assets/Netherite_Armor_29.jpg" class="card-img-top" alt="Armadura de Netherite">
+                    <div class="card-body">
+                        <h5 class="card-title">Armadura de Netherite</h5>
+                        <p class="card-text">La más resistente y duradera, ideal para combates extremos.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto2.html">
+                    <img src="assets/Diamond_Armor_JE2_BE2.jpg" class="card-img-top" alt="Armadura de Diamante">
+                    <div class="card-body">
+                        <h5 class="card-title">Armadura de Diamante</h5>
+                        <p class="card-text">Alta protección, popular por su resistencia y diseño brillante.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto3.html">
+                    <img src="assets/Iron_Armor_JE2_BE2.jpg" class="card-img-top" alt="Armadura de Hierro">
+                    <div class="card-body">
+                        <h5 class="card-title">Armadura de Hierro</h5>
+                        <p class="card-text">Fiable y accesible, excelente para aventuras de nivel medio.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto4.html">
+                    <img src="assets/Golden_Armor_JE2_BE2.jpg" class="card-img-top" alt="Armadura de Oro">
+                    <div class="card-body">
+                        <h5 class="card-title">Armadura de Oro</h5>
+                        <p class="card-text">Débil pero llamativa, mejora la interacción con piglins.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto5.html">
+                    <img src="assets/Chainmail_Armor_JE2_BE2.jpg" class="card-img-top" alt="Cota de Malla">
+                    <div class="card-body">
+                        <h5 class="card-title">Cota de Malla</h5>
+                        <p class="card-text">Difícil de obtener, combina resistencia moderada con estilo único.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <a href="producto6.html">
+                    <img src="assets/Leather_Armor_JE5_BE3.jpg" class="card-img-top" alt="Armadura de Cuero">
+                    <div class="card-body">
+                        <h5 class="card-title">Armadura de Cuero</h5>
+                        <p class="card-text">Básica y coloreable, perfecta para principiantes o exploradores.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonios</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"He probado varias armaduras, pero la de oro es la que mejor combina con mi estilo.
+                            se ve genial. Definitivamente, la mejor opción para viajar por el Nether."
+                        </p>
+                        <footer class="blockquote-footer">Carlos Gómez</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>""La armadura de Netherite es increíble. La protección es insuperable y me siento mucho más
+                            segura en mis aventuras. ¡¡Ya no gasto totem!!"</p>
+                        <footer class="blockquote-footer">Laura Lopez</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón -->
+    <div class="text-center my-4">
+        <a href="producto1.html" class="btn btn-primary btn-lg">Empieza a Comprar</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2024 BattleGear Shop. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="Sinisterra658@gmail.com" class="text-light">Sinisterra658@gmail.com</a></p>
+        <div>
+            <a href="https://github.com/Fernandoz300" class="text-light mx-2">Github</a>
+            <a href="https://www.instagram.com/z.fernandoz/" class="text-light mx-2">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="Fernandoz"></script>
+
+
+
+
+</body>
+
+</html>
